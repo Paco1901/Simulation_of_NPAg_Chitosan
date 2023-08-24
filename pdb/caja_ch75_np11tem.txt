@@ -1,0 +1,19 @@
+ Structure filename     G:\documentos\upaep\Simulacion Chitosan AgNP\pdb\caja_ch75_np11 (2).pdb 
+ Voltage (kev)     400.000000 
+ Spherical aberration (mm)    1.000000 
+ Defocus spread (Å)    38.000000 
+ Beam spread (mrad)    0.000000 
+ Defocus (Å)    -405.456739 
+ Astigmatism (Å)    0.000000 
+ Astigmatism azimut (degrees)    30.000000 
+ Convergence beam diffraction (mrad)    0.000000 
+ Small tilt (phi, theta) (degrees)   0.000000 0.000000 
+ Aperture radius (1/Å)    0.547770 
+ Internal annular aperture radius (1/Å)    0.000000 
+ Center of the aperture (X, Y) (1/Å)  0.000000 0.000000 
+ Image width (Å)    250.148447 
+ Diffraction pattern width (1/Å)    4.093569 
+ Slice width (Å)    54.866000 
+ Number of slices     1 
+ Image size (pixels x pixels)     1024 x 1024 
+ No rotation was applied to the sample    

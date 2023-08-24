@@ -1,0 +1,116 @@
+Forcite
+-------
+Task             : Geometry Optimization
+Version          : 2020
+Build date       : Oct 18 2019
+Host             : Compu_de_Mario
+Threads          : Parallel 8
+Operating system : Windows
+Task started     : Fri Feb  3 10:46:34 2023
+
+---- Geometry optimization parameters ----
+
+Algorithm                       : Smart
+Convergence tolerance:
+  Energy                        : 0.0001 kcal/mol
+  Force                         : 0.005 kcal/mol/A
+  Displacement                  : 5e-005 A
+Maximum number of iterations    : 5000
+Motion groups rigid             : NO
+
+---- Energy parameters ----
+
+Forcefield                      : COMPASS (Version 2.8)
+Charges                         : Forcefield assigned
+Electrostatic terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 15.5 A
+  Spline width                  : 1 A
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 15.5 A
+  Spline width                  : 1 A
+  Buffer width                  : 0.5 A
+
+
+Energy contributors with missing parameters:
+    Inversion                   : (c c4 o2e h1), (c c43o c43o h1), (c c43o h1 c43o), 
+                                : (c h1 c4 o2e), (c o2e h1 c4) 
+
+Energy contributors using automatic parameters:
+    Angle Bend                  : (c c4 h1), (c c4 n3mh), (c c43o c4), (c c43o c4o), 
+                                : (c c43o h1), (c c43o o2e), (c c43o o2h), (c4 c h1), 
+                                : (c4 c o2e), (c43o c c43o), (c43o c h1), (c43o c4 c), 
+                                : (c43o o2e c), (o2e c h1) 
+    Torsion                     : (c c4 n3mh c3'), (c c4 n3mh h1n), (c43o c c43o c4), 
+                                : (c43o c c43o c4o), (c43o c c43o h1), (c43o c c43o o2e), 
+                                : (c43o c c43o o2h), (c43o c4 c h1), (c43o c4 c o2e), 
+                                : (c4 c o2e c43o), (h1 c o2e c43o), (h1 c c43o c4), 
+                                : (h1 c c43o c4o), (h1 c c43o h1), (h1 c c43o o2e), 
+                                : (h1 c c43o o2h), (h1 c4 c h1), (h1 c4 c o2e), (n3mh c4 c h1), 
+                                : (n3mh c4 c o2e) 
+
+---- Initial structure ----
+
+
+Total energy                    :         -61.501717 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :        -187.216
+    Bond                        :         101.565
+    Angle                       :         208.877
+    Torsion                     :        -497.681
+    Inversion                   :           0.023
+  Valence energy (cross terms)  :         -64.932
+    Stretch-Stretch             :          -0.250
+    Stretch-Bend-Stretch        :         -11.839
+    Stretch-Torsion-Stretch     :           2.296
+    Separated-Stretch-Stretch   :           0.000
+    Torsion-Stretch             :           5.973
+    Bend-Bend                   :          -2.607
+    Torsion-Bend-Bend           :          -6.754
+    Bend-Torsion-Bend           :         -51.751
+  Non-bond energy               :         190.646
+    van der Waals               :         -47.839
+    Electrostatic               :         238.485
+ 
+rms force  :  1.601E+01 kcal/mol/A     
+max force  :  6.054E+01 kcal/mol/A
+
+---- Final structure ----
+
+
+Total energy                    :        -966.345421 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :         -54.199
+    Bond                        :          66.769
+    Angle                       :         290.763
+    Torsion                     :        -413.146
+    Inversion                   :           1.415
+  Valence energy (cross terms)  :        -176.017
+    Stretch-Stretch             :           0.261
+    Stretch-Bend-Stretch        :         -15.262
+    Stretch-Torsion-Stretch     :           1.027
+    Separated-Stretch-Stretch   :           0.000
+    Torsion-Stretch             :         -22.549
+    Bend-Bend                   :           0.319
+    Torsion-Bend-Bend           :         -34.933
+    Bend-Torsion-Bend           :        -104.880
+  Non-bond energy               :        -736.129
+    van der Waals               :         -18.471
+    Electrostatic               :        -717.658
+ 
+rms force  :  3.637E-04 kcal/mol/A     
+max force  :  4.696E-03 kcal/mol/A
+
+
+
+Task terminated               : Fri Feb  3 10:47:06 2023
+Total CPU time used by Forcite: 29 seconds (29.48s)
+
+Termination status : Normal

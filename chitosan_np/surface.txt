@@ -1,0 +1,3 @@
+Connolly Surface
+  Occupied Volume: 3993.22 Å³
+  Surface Area: 2634.86 Å²
