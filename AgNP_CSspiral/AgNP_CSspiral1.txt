@@ -1,0 +1,117 @@
+Forcite
+-------
+Task             : Geometry Optimization
+Version          : 2020
+Build date       : Oct 18 2019
+Host             : Compu_de_Mario
+Threads          : Parallel 4
+Operating system : Windows
+Task started     : Tue Feb  7 17:28:51 2023
+
+---- Geometry optimization parameters ----
+
+Algorithm                       : Smart
+Convergence tolerance:
+  Energy                        : 2e-005 kcal/mol
+  Force                         : 0.001 kcal/mol/A
+  Stress                        : 0.001 GPa
+  Displacement                  : 1e-005 A
+Maximum number of iterations    : 150000
+External pressure               : 0 GPa
+Motion groups rigid             : YES
+Optimize cell                   : YES
+
+---- Energy parameters ----
+
+Forcefield                      : COMPASS (Version 2.8)
+Charges                         : Forcefield assigned
+Electrostatic terms:
+  Summation method              : Ewald
+  Accuracy                      : 1e-05 kcal/mol
+  Buffer width                  : 0.5 A
+
+van der Waals terms:
+  Summation method              : Atom based
+  Truncation method             : Cubic spline
+  Cutoff distance               : 18.5 A
+  Spline width                  : 1 A
+  Long range correction         : YES
+  Buffer width                  : 0.5 A
+
+
+---- Initial structure ----
+
+Total enthalpy                  : -29630.627712 kcal/mol
+  External pressure term        : 0.000000 kcal/mol
+
+Total energy                    :      -29630.627712 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :       -1131.748
+    Bond                        :         144.244
+    Angle                       :         861.730
+    Torsion                     :       -2138.607
+    Inversion                   :           0.885
+  Valence energy (cross terms)  :        -602.877
+    Stretch-Stretch             :           1.726
+    Stretch-Bend-Stretch        :         -40.752
+    Stretch-Torsion-Stretch     :           3.733
+    Separated-Stretch-Stretch   :           0.000
+    Torsion-Stretch             :         -45.266
+    Bend-Bend                   :           2.134
+    Torsion-Bend-Bend           :        -168.300
+    Bend-Torsion-Bend           :        -356.152
+  Non-bond energy               :      -27896.002
+    van der Waals               :      -30796.295
+    Long range correction       :         -72.444
+    Electrostatic               :        2972.737
+ 
+rms force  :  3.851E-02 kcal/mol/A     
+max force  :  1.711E+00 kcal/mol/A
+rms stress :  8.574E-05 GPa     
+max stress :  1.918E-04 GPa
+       
+Cell parameters:    a:  44.420549 A    b:  47.861686 A    c:  30.600332 A   
+                alpha:  88.995 deg  beta:  74.883 deg gamma:  91.610 deg
+
+---- Final structure ----
+
+Total enthalpy                  : -30268.406117 kcal/mol
+  External pressure term        : 0.000000 kcal/mol
+
+Total energy                    :      -30268.406117 kcal/mol
+
+Contributions to total energy (kcal/mol):
+  Valence energy (diag. terms)  :       -1074.085
+    Bond                        :         155.817
+    Angle                       :         887.281
+    Torsion                     :       -2118.521
+    Inversion                   :           1.338
+  Valence energy (cross terms)  :        -594.584
+    Stretch-Stretch             :           1.610
+    Stretch-Bend-Stretch        :         -43.215
+    Stretch-Torsion-Stretch     :           5.090
+    Separated-Stretch-Stretch   :           0.000
+    Torsion-Stretch             :         -49.431
+    Bend-Bend                   :           2.132
+    Torsion-Bend-Bend           :        -170.954
+    Bend-Torsion-Bend           :        -339.816
+  Non-bond energy               :      -28599.737
+    van der Waals               :      -31336.325
+    Long range correction       :        -110.546
+    Electrostatic               :        2847.133
+ 
+rms force  :  1.159E-04 kcal/mol/A     
+max force  :  8.804E-04 kcal/mol/A
+rms stress :  9.706E-07 GPa     
+max stress :  2.295E-06 GPa
+       
+Cell parameters:    a:  44.997050 A    b:  31.823148 A    c:  30.585663 A   
+                alpha:  97.582 deg  beta:  72.997 deg gamma:  84.800 deg
+
+
+
+Task terminated               : Tue Feb  7 18:05:52 2023
+Total CPU time used by Forcite: 36:19 minutes (2178.92s)
+
+Termination status : Normal

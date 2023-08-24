@@ -1,0 +1,7 @@
+Died. Gateway Exception code=625, text="Identification data for job . not found. File ./jobident.txt does not exist." at C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\etc\Gateway\root_default\dsd\commands/DSD_utils.pm line 1970.
+Error at C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\etc\Gateway\root_default\dsd\commands/DSD_utils.pm line 1970.
+	DSD_utils::throw(625, "Identification data for job . not found. File ./jobident.txt "...) called at C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\etc\Gateway\root_default\dsd\commands/DSD_utils.pm line 496
+	DSD_utils::get_jobid(".") called at C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\etc\Gateway\root_default\dsd\commands/DSD_utils.pm line 855
+	DSD_utils::add_procid_to_jobinfo(8708) called at C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\etc\Gateway\root_default\dsd\commands/DSD_serverutils.pm line 308
+	DSD_serverutils::register_processid(8708) called at C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\etc\Gateway\root_default\dsd\commands/DSD_serverutils.pm line 263
+	DSD_serverutils::register_running_server(8708) called at C:\ProgramData\BIOVIA\Materials Studio\20.1\Gateway-x64\root_default\dsd\servers/VAMP.pl line 35

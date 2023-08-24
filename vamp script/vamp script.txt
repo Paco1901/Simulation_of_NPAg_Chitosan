@@ -1,0 +1,7 @@
+my $results = Modules->VAMP->GeometryOptimization->Run($doc, Settings(
+	CIScheme => 'Full', 
+	MaxSCFCycles => 500, 
+	ForceConvergence => 0.1, 
+	Frequency => 'Yes', 
+	LocalizedOrbitals => 'Yes', 
+	UV_VIS => 'Yes'));

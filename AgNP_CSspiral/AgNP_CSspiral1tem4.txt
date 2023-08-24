@@ -1,0 +1,19 @@
+ Structure filename     G:\documentos\upaep\Simulacion Chitosan AgNP\AgNP_CSspiral\AgNP_CSspiral1 - simulatem.pdb 
+ Voltage (kev)     400.000000 
+ Spherical aberration (mm)    1.000000 
+ Defocus spread (Å)    38.000000 
+ Beam spread (mrad)    0.000000 
+ Defocus (Å)    -405.456739 
+ Astigmatism (Å)    0.000000 
+ Astigmatism azimut (degrees)    30.000000 
+ Convergence beam diffraction (mrad)    0.000000 
+ Small tilt (phi, theta) (degrees)   0.000000 0.000000 
+ Aperture radius (1/Å)    0.547770 
+ Internal annular aperture radius (1/Å)    0.000000 
+ Center of the aperture (X, Y) (1/Å)  0.000000 0.000000 
+ Image width (Å)    127.730459 
+ Diffraction pattern width (1/Å)    8.016882 
+ Slice width (Å)    79.998121 
+ Number of slices     1 
+ Image size (pixels x pixels)     1024 x 1024 
+ Rotation J,K,L,angle (degrees)   0.000000 1.000000 0.000000 45.000000 
